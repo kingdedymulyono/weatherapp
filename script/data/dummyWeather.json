@@ -1,797 +1,1064 @@
 [
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-05 13:57",
-        "localtime_epoch": 1757080620,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "06:57 AM",
-        "temperature": 32,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Sunny"
-        ],
-        "wind_speed": 15,
-        "wind_degree": 103,
-        "wind_dir": "ESE",
-        "pressure": 1009,
-        "precip": 0,
-        "humidity": 63,
-        "cloudcover": 25,
-        "feelslike": 34,
-        "uv_index": 10,
-        "visibility": 9,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 654.9,
-          "no2": 103.97,
-          "o3": 22,
-          "so2": 18.5,
-          "pm2_5": 158.545,
-          "pm10": 163.17,
-          "us-epa-index": 5,
-          "gb-defra-index": 5
-        },
-        "astro": {
-          "sunrise": "05:28 AM",
-          "sunset": "05:28 PM",
-          "moonrise": "03:22 PM",
-          "moonset": "03:18 AM",
-          "moon_phase": "Waxing Gibbous",
-          "moon_illumination": 91
-        }
-      }
+  {
+    "request": {
+      "type": "City",
+      "query": "New York, USA",
+      "language": "en",
+      "unit": "m"
     },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-06 09:00",
-        "localtime_epoch": 1757160000,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "09:00 AM",
-        "temperature": 29,
-        "weather_code": 116,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
-        ],
-        "weather_descriptions": [
-          "Partly Cloudy"
-        ],
-        "wind_speed": 12,
-        "wind_degree": 90,
-        "wind_dir": "E",
-        "pressure": 1011,
-        "precip": 0,
-        "humidity": 70,
-        "cloudcover": 40,
-        "feelslike": 32,
-        "uv_index": 7,
-        "visibility": 10,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 600.0,
-          "no2": 95.0,
-          "o3": 25,
-          "so2": 16.0,
-          "pm2_5": 145.0,
-          "pm10": 150.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:28 AM",
-          "sunset": "05:28 PM",
-          "moonrise": "04:00 PM",
-          "moonset": "04:00 AM",
-          "moon_phase": "Waxing Gibbous",
-          "moon_illumination": 92
-        }
-      }
+    "location": {
+      "name": "New York",
+      "country": "USA",
+      "region": "New York",
+      "lat": "40.714",
+      "lon": "-74.006",
+      "timezone_id": "America/New_York",
+      "localtime": "2025-09-06 01:57",
+      "localtime_epoch": 1757095020,
+      "utc_offset": "-4.0"
     },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-07 15:00",
-        "localtime_epoch": 1757332800,
-        "utc_offset": "7.0"
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 18,
+      "weather_code": 116,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_partly_cloudy.png"
+      ],
+      "weather_descriptions": [
+        "Partly cloudy"
+      ],
+      "astro": {
+        "sunrise": "06:29 AM",
+        "sunset": "07:11 PM",
+        "moonrise": "05:15 PM",
+        "moonset": "04:32 AM",
+        "moon_phase": "Waning Gibbous",
+        "moon_illumination": 85
       },
-      "current": {
-        "observation_time": "03:00 PM",
-        "temperature": 33,
-        "weather_code": 119,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
-        ],
-        "weather_descriptions": [
-          "Cloudy"
-        ],
-        "wind_speed": 10,
-        "wind_degree": 80,
-        "wind_dir": "E",
-        "pressure": 1008,
-        "precip": 0.2,
-        "humidity": 65,
-        "cloudcover": 85,
-        "feelslike": 36,
-        "uv_index": 5,
-        "visibility": 8,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 670.0,
-          "no2": 100.0,
-          "o3": 20,
-          "so2": 19.0,
-          "pm2_5": 160.0,
-          "pm10": 165.0,
-          "us-epa-index": 5,
-          "gb-defra-index": 5
-        },
-        "astro": {
-          "sunrise": "05:28 AM",
-          "sunset": "05:28 PM",
-          "moonrise": "04:45 PM",
-          "moonset": "04:45 AM",
-          "moon_phase": "Full Moon",
-          "moon_illumination": 99
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-08 21:00",
-        "localtime_epoch": 1757437200,
-        "utc_offset": "7.0"
+      "air_quality": {
+        "co": "450.5",
+        "no2": "45.1",
+        "o3": "35",
+        "so2": "8.2",
+        "pm2_5": "12.3",
+        "pm10": "25.6",
+        "us-epa-index": "2",
+        "gb-defra-index": "2"
       },
-      "current": {
-        "observation_time": "09:00 PM",
-        "temperature": 27,
-        "weather_code": 122,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0007_cloudy_with_light_rain.png"
-        ],
-        "weather_descriptions": [
-          "Light Rain Shower"
-        ],
-        "wind_speed": 8,
-        "wind_degree": 120,
-        "wind_dir": "ESE",
-        "pressure": 1010,
-        "precip": 1.5,
-        "humidity": 85,
-        "cloudcover": 90,
-        "feelslike": 30,
-        "uv_index": 0,
-        "visibility": 6,
-        "is_day": "no",
-        "air_quality": {
-          "co": 640.0,
-          "no2": 98.0,
-          "o3": 18,
-          "so2": 17.0,
-          "pm2_5": 150.0,
-          "pm10": 155.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:27 AM",
-          "sunset": "05:27 PM",
-          "moonrise": "05:30 PM",
-          "moonset": "05:30 AM",
-          "moon_phase": "Full Moon",
-          "moon_illumination": 100
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-09 06:00",
-        "localtime_epoch": 1757484000,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "06:00 AM",
-        "temperature": 26,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Sunny"
-        ],
-        "wind_speed": 5,
-        "wind_degree": 70,
-        "wind_dir": "ENE",
-        "pressure": 1012,
-        "precip": 0,
-        "humidity": 80,
-        "cloudcover": 10,
-        "feelslike": 28,
-        "uv_index": 2,
-        "visibility": 10,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 620.0,
-          "no2": 90.0,
-          "o3": 24,
-          "so2": 15.0,
-          "pm2_5": 140.0,
-          "pm10": 145.0,
-          "us-epa-index": 3,
-          "gb-defra-index": 3
-        },
-        "astro": {
-          "sunrise": "05:27 AM",
-          "sunset": "05:27 PM",
-          "moonrise": "06:15 PM",
-          "moonset": "06:15 AM",
-          "moon_phase": "Waning Gibbous",
-          "moon_illumination": 98
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-10 12:00",
-        "localtime_epoch": 1757563200,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "12:00 PM",
-        "temperature": 31,
-        "weather_code": 116,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
-        ],
-        "weather_descriptions": [
-          "Partly Cloudy"
-        ],
-        "wind_speed": 14,
-        "wind_degree": 100,
-        "wind_dir": "E",
-        "pressure": 1009,
-        "precip": 0,
-        "humidity": 68,
-        "cloudcover": 35,
-        "feelslike": 34,
-        "uv_index": 8,
-        "visibility": 9,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 650.0,
-          "no2": 102.0,
-          "o3": 23,
-          "so2": 18.0,
-          "pm2_5": 155.0,
-          "pm10": 160.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:27 AM",
-          "sunset": "05:27 PM",
-          "moonrise": "07:00 PM",
-          "moonset": "07:00 AM",
-          "moon_phase": "Waning Gibbous",
-          "moon_illumination": 95
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-11 18:00",
-        "localtime_epoch": 1757656800,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "06:00 PM",
-        "temperature": 28,
-        "weather_code": 143,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
-        ],
-        "weather_descriptions": [
-          "Mist"
-        ],
-        "wind_speed": 3,
-        "wind_degree": 60,
-        "wind_dir": "ENE",
-        "pressure": 1011,
-        "precip": 0,
-        "humidity": 90,
-        "cloudcover": 100,
-        "feelslike": 31,
-        "uv_index": 0,
-        "visibility": 4,
-        "is_day": "no",
-        "air_quality": {
-          "co": 680.0,
-          "no2": 105.0,
-          "o3": 19,
-          "so2": 20.0,
-          "pm2_5": 165.0,
-          "pm10": 170.0,
-          "us-epa-index": 5,
-          "gb-defra-index": 5
-        },
-        "astro": {
-          "sunrise": "05:26 AM",
-          "sunset": "05:26 PM",
-          "moonrise": "07:45 PM",
-          "moonset": "07:45 AM",
-          "moon_phase": "Waning Gibbous",
-          "moon_illumination": 90
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-12 03:00",
-        "localtime_epoch": 1757703600,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "03:00 AM",
-        "temperature": 25,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Clear"
-        ],
-        "wind_speed": 2,
-        "wind_degree": 50,
-        "wind_dir": "NE",
-        "pressure": 1013,
-        "precip": 0,
-        "humidity": 85,
-        "cloudcover": 5,
-        "feelslike": 27,
-        "uv_index": 0,
-        "visibility": 10,
-        "is_day": "no",
-        "air_quality": {
-          "co": 610.0,
-          "no2": 88.0,
-          "o3": 26,
-          "so2": 14.0,
-          "pm2_5": 135.0,
-          "pm10": 140.0,
-          "us-epa-index": 3,
-          "gb-defra-index": 3
-        },
-        "astro": {
-          "sunrise": "05:26 AM",
-          "sunset": "05:26 PM",
-          "moonrise": "08:30 PM",
-          "moonset": "08:30 AM",
-          "moon_phase": "Waning Gibbous",
-          "moon_illumination": 85
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-13 09:00",
-        "localtime_epoch": 1757782800,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "09:00 AM",
-        "temperature": 30,
-        "weather_code": 119,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
-        ],
-        "weather_descriptions": [
-          "Cloudy"
-        ],
-        "wind_speed": 9,
-        "wind_degree": 85,
-        "wind_dir": "E",
-        "pressure": 1008,
-        "precip": 0.1,
-        "humidity": 72,
-        "cloudcover": 80,
-        "feelslike": 33,
-        "uv_index": 6,
-        "visibility": 7,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 660.0,
-          "no2": 101.0,
-          "o3": 21,
-          "so2": 17.5,
-          "pm2_5": 157.0,
-          "pm10": 162.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:26 AM",
-          "sunset": "05:26 PM",
-          "moonrise": "09:15 PM",
-          "moonset": "09:15 AM",
-          "moon_phase": "Waning Gibbous",
-          "moon_illumination": 80
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-14 15:00",
-        "localtime_epoch": 1757869200,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "03:00 PM",
-        "temperature": 34,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Sunny"
-        ],
-        "wind_speed": 11,
-        "wind_degree": 95,
-        "wind_dir": "E",
-        "pressure": 1007,
-        "precip": 0,
-        "humidity": 60,
-        "cloudcover": 15,
-        "feelslike": 37,
-        "uv_index": 9,
-        "visibility": 10,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 645.0,
-          "no2": 99.0,
-          "o3": 27,
-          "so2": 16.5,
-          "pm2_5": 152.0,
-          "pm10": 157.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:25 AM",
-          "sunset": "05:25 PM",
-          "moonrise": "10:00 PM",
-          "moonset": "10:00 AM",
-          "moon_phase": "Last Quarter",
-          "moon_illumination": 75
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-15 21:00",
-        "localtime_epoch": 1757955600,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "09:00 PM",
-        "temperature": 26,
-        "weather_code": 122,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0007_cloudy_with_light_rain.png"
-        ],
-        "weather_descriptions": [
-          "Light Rain Shower"
-        ],
-        "wind_speed": 7,
-        "wind_degree": 110,
-        "wind_dir": "ESE",
-        "pressure": 1010,
-        "precip": 2.0,
-        "humidity": 88,
-        "cloudcover": 95,
-        "feelslike": 29,
-        "uv_index": 0,
-        "visibility": 5,
-        "is_day": "no",
-        "air_quality": {
-          "co": 630.0,
-          "no2": 96.0,
-          "o3": 19,
-          "so2": 15.5,
-          "pm2_5": 148.0,
-          "pm10": 153.0,
-          "us-epa-index": 4,
-          "gb-defra-index": 4
-        },
-        "astro": {
-          "sunrise": "05:25 AM",
-          "sunset": "05:25 PM",
-          "moonrise": "10:45 PM",
-          "moonset": "10:45 AM",
-          "moon_phase": "Last Quarter",
-          "moon_illumination": 70
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-16 06:00",
-        "localtime_epoch": 1758002400,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "06:00 AM",
-        "temperature": 25,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Sunny"
-        ],
-        "wind_speed": 4,
-        "wind_degree": 65,
-        "wind_dir": "ENE",
-        "pressure": 1012,
-        "precip": 0,
-        "humidity": 82,
-        "cloudcover": 8,
-        "feelslike": 27,
-        "uv_index": 1,
-        "visibility": 9,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 600.0,
-          "no2": 87.0,
-          "o3": 25,
-          "so2": 14.5,
-          "pm2_5": 138.0,
-          "pm10": 143.0,
-          "us-epa-index": 3,
-          "gb-defra-index": 3
-        },
-        "astro": {
-          "sunrise": "05:25 AM",
-          "sunset": "05:25 PM",
-          "moonrise": "11:30 PM",
-          "moonset": "11:30 AM",
-          "moon_phase": "Last Quarter",
-          "moon_illumination": 65
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-17 12:00",
-        "localtime_epoch": 1758081600,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "12:00 PM",
-        "temperature": 32,
-        "weather_code": 116,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
-        ],
-        "weather_descriptions": [
-          "Partly Cloudy"
-        ],
-        "wind_speed": 13,
-        "wind_degree": 98,
-        "wind_dir": "E",
-        "pressure": 1009,
-        "precip": 0,
-        "humidity": 66,
-        "cloudcover": 30,
-        "feelslike": 35,
-        "uv_index": 8,
-        "visibility": 10,
-        "is_day": "yes",
-        "air_quality": {
-          "co": 655.0,
-          "no2": 104.0,
-          "o3": 22,
-          "so2": 18.2,
-          "pm2_5": 159.0,
-          "pm10": 164.0,
-          "us-epa-index": 5,
-          "gb-defra-index": 5
-        },
-        "astro": {
-          "sunrise": "05:24 AM",
-          "sunset": "05:24 PM",
-          "moonrise": "No moonrise",
-          "moonset": "12:15 PM",
-          "moon_phase": "Last Quarter",
-          "moon_illumination": 60
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-18 18:00",
-        "localtime_epoch": 1758175200,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "06:00 PM",
-        "temperature": 27,
-        "weather_code": 143,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
-        ],
-        "weather_descriptions": [
-          "Mist"
-        ],
-        "wind_speed": 2,
-        "wind_degree": 55,
-        "wind_dir": "NE",
-        "pressure": 1011,
-        "precip": 0,
-        "humidity": 92,
-        "cloudcover": 100,
-        "feelslike": 30,
-        "uv_index": 0,
-        "visibility": 3,
-        "is_day": "no",
-        "air_quality": {
-          "co": 675.0,
-          "no2": 106.0,
-          "o3": 20,
-          "so2": 19.5,
-          "pm2_5": 162.0,
-          "pm10": 167.0,
-          "us-epa-index": 5,
-          "gb-defra-index": 5
-        },
-        "astro": {
-          "sunrise": "05:24 AM",
-          "sunset": "05:24 PM",
-          "moonrise": "12:00 AM",
-          "moonset": "12:45 PM",
-          "moon_phase": "Waning Crescent",
-          "moon_illumination": 55
-        }
-      }
-    },
-    {
-      "location": {
-        "name": "Surabaya",
-        "country": "Indonesia",
-        "region": "East Java",
-        "lat": "-7.249",
-        "lon": "112.751",
-        "timezone_id": "Asia/Jakarta",
-        "localtime": "2025-09-19 00:00",
-        "localtime_epoch": 1758196800,
-        "utc_offset": "7.0"
-      },
-      "current": {
-        "observation_time": "12:00 AM",
-        "temperature": 24,
-        "weather_code": 113,
-        "weather_icons": [
-          "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
-        ],
-        "weather_descriptions": [
-          "Clear"
-        ],
-        "wind_speed": 1,
-        "wind_degree": 45,
-        "wind_dir": "NE",
-        "pressure": 1013,
-        "precip": 0,
-        "humidity": 87,
-        "cloudcover": 2,
-        "feelslike": 26,
-        "uv_index": 0,
-        "visibility": 10,
-        "is_day": "no",
-        "air_quality": {
-          "co": 590.0,
-          "no2": 85.0,
-          "o3": 28,
-          "so2": 13.0,
-          "pm2_5": 130.0,
-          "pm10": 135.0,
-          "us-epa-index": 2,
-          "gb-defra-index": 2
-        },
-        "astro": {
-          "sunrise": "05:24 AM",
-          "sunset": "05:24 PM",
-          "moonrise": "12:15 AM",
-          "moonset": "01:00 PM",
-          "moon_phase": "Waning Crescent",
-          "moon_illumination": 50
-        }
-      }
+      "wind_speed": 10,
+      "wind_degree": 270,
+      "wind_dir": "W",
+      "pressure": 1015,
+      "precip": 0,
+      "humidity": 75,
+      "cloudcover": 50,
+      "feelslike": 17,
+      "uv_index": 2,
+      "visibility": 10,
+      "is_day": "yes"
     }
-  ]
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "London, UK",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "London",
+      "country": "United Kingdom",
+      "region": "City of London, Greater London",
+      "lat": "51.507",
+      "lon": "-0.128",
+      "timezone_id": "Europe/London",
+      "localtime": "2025-09-06 06:57",
+      "localtime_epoch": 1757113020,
+      "utc_offset": "1.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 15,
+      "weather_code": 122,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_cloud_with_white_cloud.png"
+      ],
+      "weather_descriptions": [
+        "Overcast"
+      ],
+      "astro": {
+        "sunrise": "06:33 AM",
+        "sunset": "07:17 PM",
+        "moonrise": "04:55 PM",
+        "moonset": "05:01 AM",
+        "moon_phase": "Last Quarter",
+        "moon_illumination": 50
+      },
+      "air_quality": {
+        "co": "320.2",
+        "no2": "28.5",
+        "o3": "45",
+        "so2": "6.1",
+        "pm2_5": "9.8",
+        "pm10": "18.5",
+        "us-epa-index": "1",
+        "gb-defra-index": "1"
+      },
+      "wind_speed": 5,
+      "wind_degree": 225,
+      "wind_dir": "SW",
+      "pressure": 1012,
+      "precip": 0,
+      "humidity": 80,
+      "cloudcover": 90,
+      "feelslike": 14,
+      "uv_index": 1,
+      "visibility": 8,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Tokyo, Japan",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Tokyo",
+      "country": "Japan",
+      "region": "Tokyo",
+      "lat": "35.689",
+      "lon": "139.692",
+      "timezone_id": "Asia/Tokyo",
+      "localtime": "2025-09-06 14:57",
+      "localtime_epoch": 1757143020,
+      "utc_offset": "9.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 25,
+      "weather_code": 113,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weather_descriptions": [
+        "Sunny"
+      ],
+      "astro": {
+        "sunrise": "05:27 AM",
+        "sunset": "06:01 PM",
+        "moonrise": "02:10 PM",
+        "moonset": "01:55 AM",
+        "moon_phase": "First Quarter",
+        "moon_illumination": 45
+      },
+      "air_quality": {
+        "co": "780.1",
+        "no2": "89.2",
+        "o3": "25",
+        "so2": "12.3",
+        "pm2_5": "20.5",
+        "pm10": "35.7",
+        "us-epa-index": "3",
+        "gb-defra-index": "3"
+      },
+      "wind_speed": 8,
+      "wind_degree": 180,
+      "wind_dir": "S",
+      "pressure": 1010,
+      "precip": 0,
+      "humidity": 68,
+      "cloudcover": 15,
+      "feelslike": 26,
+      "uv_index": 8,
+      "visibility": 10,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Sydney, Australia",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Sydney",
+      "country": "Australia",
+      "region": "New South Wales",
+      "lat": "-33.868",
+      "lon": "151.209",
+      "timezone_id": "Australia/Sydney",
+      "localtime": "2025-09-06 16:57",
+      "localtime_epoch": 1757150220,
+      "utc_offset": "10.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 21,
+      "weather_code": 176,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+      ],
+      "weather_descriptions": [
+        "Light showers"
+      ],
+      "astro": {
+        "sunrise": "06:04 AM",
+        "sunset": "05:58 PM",
+        "moonrise": "04:05 PM",
+        "moonset": "04:15 AM",
+        "moon_phase": "Waning Crescent",
+        "moon_illumination": 20
+      },
+      "air_quality": {
+        "co": "550.8",
+        "no2": "65.3",
+        "o3": "30",
+        "so2": "7.5",
+        "pm2_5": "15.9",
+        "pm10": "28.1",
+        "us-epa-index": "2",
+        "gb-defra-index": "2"
+      },
+      "wind_speed": 20,
+      "wind_degree": 150,
+      "wind_dir": "SSE",
+      "pressure": 1005,
+      "precip": 0.5,
+      "humidity": 85,
+      "cloudcover": 75,
+      "feelslike": 20,
+      "uv_index": 5,
+      "visibility": 7,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Moscow, Russia",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Moscow",
+      "country": "Russia",
+      "region": "Moscow City",
+      "lat": "55.752",
+      "lon": "37.616",
+      "timezone_id": "Europe/Moscow",
+      "localtime": "2025-09-06 08:57",
+      "localtime_epoch": 1757120220,
+      "utc_offset": "3.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 12,
+      "weather_code": 227,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0020_mist.png"
+      ],
+      "weather_descriptions": [
+        "Mist"
+      ],
+      "astro": {
+        "sunrise": "06:15 AM",
+        "sunset": "07:05 PM",
+        "moonrise": "04:30 PM",
+        "moonset": "05:45 AM",
+        "moon_phase": "New Moon",
+        "moon_illumination": 1
+      },
+      "air_quality": {
+        "co": "280.9",
+        "no2": "22.4",
+        "o3": "50",
+        "so2": "5.5",
+        "pm2_5": "8.1",
+        "pm10": "15.3",
+        "us-epa-index": "1",
+        "gb-defra-index": "1"
+      },
+      "wind_speed": 3,
+      "wind_degree": 90,
+      "wind_dir": "E",
+      "pressure": 1020,
+      "precip": 0,
+      "humidity": 95,
+      "cloudcover": 85,
+      "feelslike": 11,
+      "uv_index": 0,
+      "visibility": 1,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Cairo, Egypt",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Cairo",
+      "country": "Egypt",
+      "region": "Cairo",
+      "lat": "30.044",
+      "lon": "31.236",
+      "timezone_id": "Africa/Cairo",
+      "localtime": "2025-09-06 07:57",
+      "localtime_epoch": 1757116620,
+      "utc_offset": "2.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 28,
+      "weather_code": 113,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weather_descriptions": [
+        "Sunny"
+      ],
+      "astro": {
+        "sunrise": "05:45 AM",
+        "sunset": "06:20 PM",
+        "moonrise": "03:40 PM",
+        "moonset": "04:25 AM",
+        "moon_phase": "Waxing Crescent",
+        "moon_illumination": 15
+      },
+      "air_quality": {
+        "co": "850.3",
+        "no2": "120.5",
+        "o3": "18",
+        "so2": "20.1",
+        "pm2_5": "110.2",
+        "pm10": "130.8",
+        "us-epa-index": "4",
+        "gb-defra-index": "4"
+      },
+      "wind_speed": 12,
+      "wind_degree": 315,
+      "wind_dir": "NW",
+      "pressure": 1008,
+      "precip": 0,
+      "humidity": 55,
+      "cloudcover": 10,
+      "feelslike": 29,
+      "uv_index": 9,
+      "visibility": 9,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Rio de Janeiro, Brazil",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "region": "Rio de Janeiro",
+      "lat": "-22.907",
+      "lon": "-43.172",
+      "timezone_id": "America/Sao_Paulo",
+      "localtime": "2025-09-06 02:57",
+      "localtime_epoch": 1757102220,
+      "utc_offset": "-3.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 22,
+      "weather_code": 119,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+      ],
+      "weather_descriptions": [
+        "Cloudy"
+      ],
+      "astro": {
+        "sunrise": "05:51 AM",
+        "sunset": "06:15 PM",
+        "moonrise": "02:30 PM",
+        "moonset": "02:40 AM",
+        "moon_phase": "Full Moon",
+        "moon_illumination": 100
+      },
+      "air_quality": {
+        "co": "620.4",
+        "no2": "75.8",
+        "o3": "28",
+        "so2": "10.6",
+        "pm2_5": "25.1",
+        "pm10": "40.2",
+        "us-epa-index": "3",
+        "gb-defra-index": "3"
+      },
+      "wind_speed": 18,
+      "wind_degree": 90,
+      "wind_dir": "E",
+      "pressure": 1011,
+      "precip": 0,
+      "humidity": 70,
+      "cloudcover": 70,
+      "feelslike": 23,
+      "uv_index": 6,
+      "visibility": 9,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Dubai, UAE",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "region": "Dubai",
+      "lat": "25.269",
+      "lon": "55.309",
+      "timezone_id": "Asia/Dubai",
+      "localtime": "2025-09-06 10:57",
+      "localtime_epoch": 1757127420,
+      "utc_offset": "4.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 38,
+      "weather_code": 113,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weather_descriptions": [
+        "Sunny"
+      ],
+      "astro": {
+        "sunrise": "06:05 AM",
+        "sunset": "06:25 PM",
+        "moonrise": "04:10 PM",
+        "moonset": "05:20 AM",
+        "moon_phase": "Waxing Gibbous",
+        "moon_illumination": 88
+      },
+      "air_quality": {
+        "co": "950.8",
+        "no2": "145.2",
+        "o3": "15",
+        "so2": "25.9",
+        "pm2_5": "250.3",
+        "pm10": "280.5",
+        "us-epa-index": "5",
+        "gb-defra-index": "6"
+      },
+      "wind_speed": 10,
+      "wind_degree": 300,
+      "wind_dir": "WNW",
+      "pressure": 1005,
+      "precip": 0,
+      "humidity": 40,
+      "cloudcover": 5,
+      "feelslike": 40,
+      "uv_index": 11,
+      "visibility": 8,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Cape Town, South Africa",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Cape Town",
+      "country": "South Africa",
+      "region": "Western Cape",
+      "lat": "-33.925",
+      "lon": "18.424",
+      "timezone_id": "Africa/Johannesburg",
+      "localtime": "2025-09-06 07:57",
+      "localtime_epoch": 1757116620,
+      "utc_offset": "2.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 16,
+      "weather_code": 248,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0006_cloudy_with_sleet.png"
+      ],
+      "weather_descriptions": [
+        "Fog"
+      ],
+      "astro": {
+        "sunrise": "06:45 AM",
+        "sunset": "06:30 PM",
+        "moonrise": "04:50 PM",
+        "moonset": "05:30 AM",
+        "moon_phase": "Last Quarter",
+        "moon_illumination": 55
+      },
+      "air_quality": {
+        "co": "350.5",
+        "no2": "30.1",
+        "o3": "48",
+        "so2": "6.8",
+        "pm2_5": "10.5",
+        "pm10": "20.1",
+        "us-epa-index": "1",
+        "gb-defra-index": "1"
+      },
+      "wind_speed": 7,
+      "wind_degree": 200,
+      "wind_dir": "SSW",
+      "pressure": 1018,
+      "precip": 0,
+      "humidity": 90,
+      "cloudcover": 95,
+      "feelslike": 15,
+      "uv_index": 1,
+      "visibility": 2,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Mexico City, Mexico",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "region": "Distrito Federal",
+      "lat": "19.432",
+      "lon": "-99.133",
+      "timezone_id": "America/Mexico_City",
+      "localtime": "2025-09-05 23:57",
+      "localtime_epoch": 1757088220,
+      "utc_offset": "-6.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 14,
+      "weather_code": 302,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_thunderstorms.png"
+      ],
+      "weather_descriptions": [
+        "Moderate rain"
+      ],
+      "astro": {
+        "sunrise": "06:58 AM",
+        "sunset": "07:05 PM",
+        "moonrise": "03:50 PM",
+        "moonset": "04:30 AM",
+        "moon_phase": "Waning Crescent",
+        "moon_illumination": 30
+      },
+      "air_quality": {
+        "co": "750.1",
+        "no2": "90.2",
+        "o3": "22",
+        "so2": "15.7",
+        "pm2_5": "50.5",
+        "pm10": "65.3",
+        "us-epa-index": "4",
+        "gb-defra-index": "4"
+      },
+      "wind_speed": 15,
+      "wind_degree": 250,
+      "wind_dir": "WSW",
+      "pressure": 1000,
+      "precip": 2.5,
+      "humidity": 92,
+      "cloudcover": 80,
+      "feelslike": 13,
+      "uv_index": 3,
+      "visibility": 6,
+      "is_day": "no"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Berlin, Germany",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Berlin",
+      "country": "Germany",
+      "region": "Berlin",
+      "lat": "52.520",
+      "lon": "13.405",
+      "timezone_id": "Europe/Berlin",
+      "localtime": "2025-09-06 07:57",
+      "localtime_epoch": 1757116620,
+      "utc_offset": "2.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 13,
+      "weather_code": 116,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_partly_cloudy.png"
+      ],
+      "weather_descriptions": [
+        "Partly cloudy"
+      ],
+      "astro": {
+        "sunrise": "06:30 AM",
+        "sunset": "07:20 PM",
+        "moonrise": "05:10 PM",
+        "moonset": "05:50 AM",
+        "moon_phase": "Waning Gibbous",
+        "moon_illumination": 70
+      },
+      "air_quality": {
+        "co": "300.1",
+        "no2": "25.6",
+        "o3": "40",
+        "so2": "5.9",
+        "pm2_5": "11.2",
+        "pm10": "22.5",
+        "us-epa-index": "1",
+        "gb-defra-index": "1"
+      },
+      "wind_speed": 8,
+      "wind_degree": 270,
+      "wind_dir": "W",
+      "pressure": 1014,
+      "precip": 0,
+      "humidity": 78,
+      "cloudcover": 45,
+      "feelslike": 12,
+      "uv_index": 2,
+      "visibility": 10,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Mumbai, India",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Mumbai",
+      "country": "India",
+      "region": "Maharashtra",
+      "lat": "19.076",
+      "lon": "72.877",
+      "timezone_id": "Asia/Kolkata",
+      "localtime": "2025-09-06 12:27",
+      "localtime_epoch": 1757133420,
+      "utc_offset": "5.5"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 29,
+      "weather_code": 302,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0018_thunderstorms.png"
+      ],
+      "weather_descriptions": [
+        "Moderate rain"
+      ],
+      "astro": {
+        "sunrise": "06:15 AM",
+        "sunset": "06:40 PM",
+        "moonrise": "03:50 PM",
+        "moonset": "04:30 AM",
+        "moon_phase": "Waning Crescent",
+        "moon_illumination": 30
+      },
+      "air_quality": {
+        "co": "880.5",
+        "no2": "130.1",
+        "o3": "20",
+        "so2": "18.5",
+        "pm2_5": "120.5",
+        "pm10": "140.8",
+        "us-epa-index": "4",
+        "gb-defra-index": "5"
+      },
+      "wind_speed": 10,
+      "wind_degree": 270,
+      "wind_dir": "W",
+      "pressure": 1006,
+      "precip": 5.2,
+      "humidity": 88,
+      "cloudcover": 85,
+      "feelslike": 31,
+      "uv_index": 7,
+      "visibility": 5,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Paris, France",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Paris",
+      "country": "France",
+      "region": "Ile-de-France",
+      "lat": "48.856",
+      "lon": "2.352",
+      "timezone_id": "Europe/Paris",
+      "localtime": "2025-09-06 07:57",
+      "localtime_epoch": 1757116620,
+      "utc_offset": "2.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 16,
+      "weather_code": 119,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+      ],
+      "weather_descriptions": [
+        "Cloudy"
+      ],
+      "astro": {
+        "sunrise": "06:50 AM",
+        "sunset": "07:35 PM",
+        "moonrise": "05:40 PM",
+        "moonset": "06:15 AM",
+        "moon_phase": "First Quarter",
+        "moon_illumination": 40
+      },
+      "air_quality": {
+        "co": "400.3",
+        "no2": "35.8",
+        "o3": "38",
+        "so2": "7.1",
+        "pm2_5": "14.5",
+        "pm10": "27.8",
+        "us-epa-index": "2",
+        "gb-defra-index": "2"
+      },
+      "wind_speed": 10,
+      "wind_degree": 220,
+      "wind_dir": "SW",
+      "pressure": 1010,
+      "precip": 0,
+      "humidity": 75,
+      "cloudcover": 65,
+      "feelslike": 15,
+      "uv_index": 3,
+      "visibility": 9,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Beijing, China",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Beijing",
+      "country": "China",
+      "region": "Beijing",
+      "lat": "39.904",
+      "lon": "116.407",
+      "timezone_id": "Asia/Shanghai",
+      "localtime": "2025-09-06 13:57",
+      "localtime_epoch": 1757139420,
+      "utc_offset": "8.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 24,
+      "weather_code": 113,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weather_descriptions": [
+        "Sunny"
+      ],
+      "astro": {
+        "sunrise": "05:45 AM",
+        "sunset": "06:30 PM",
+        "moonrise": "03:20 PM",
+        "moonset": "02:50 AM",
+        "moon_phase": "Waxing Crescent",
+        "moon_illumination": 25
+      },
+      "air_quality": {
+        "co": "900.2",
+        "no2": "150.8",
+        "o3": "18",
+        "so2": "22.3",
+        "pm2_5": "200.5",
+        "pm10": "210.1",
+        "us-epa-index": "5",
+        "gb-defra-index": "6"
+      },
+      "wind_speed": 5,
+      "wind_degree": 180,
+      "wind_dir": "S",
+      "pressure": 1008,
+      "precip": 0,
+      "humidity": 60,
+      "cloudcover": 10,
+      "feelslike": 25,
+      "uv_index": 9,
+      "visibility": 5,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Buenos Aires, Argentina",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "region": "Buenos Aires",
+      "lat": "-34.603",
+      "lon": "-58.381",
+      "timezone_id": "America/Argentina/Buenos_Aires",
+      "localtime": "2025-09-06 02:57",
+      "localtime_epoch": 1757102220,
+      "utc_offset": "-3.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 18,
+      "weather_code": 176,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+      ],
+      "weather_descriptions": [
+        "Light showers"
+      ],
+      "astro": {
+        "sunrise": "06:30 AM",
+        "sunset": "06:45 PM",
+        "moonrise": "03:10 PM",
+        "moonset": "03:45 AM",
+        "moon_phase": "Waning Gibbous",
+        "moon_illumination": 90
+      },
+      "air_quality": {
+        "co": "600.5",
+        "no2": "70.1",
+        "o3": "25",
+        "so2": "11.2",
+        "pm2_5": "30.5",
+        "pm10": "45.8",
+        "us-epa-index": "3",
+        "gb-defra-index": "3"
+      },
+      "wind_speed": 15,
+      "wind_degree": 270,
+      "wind_dir": "W",
+      "pressure": 1007,
+      "precip": 1.5,
+      "humidity": 85,
+      "cloudcover": 70,
+      "feelslike": 17,
+      "uv_index": 5,
+      "visibility": 8,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Toronto, Canada",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Toronto",
+      "country": "Canada",
+      "region": "Ontario",
+      "lat": "43.653",
+      "lon": "-79.383",
+      "timezone_id": "America/Toronto",
+      "localtime": "2025-09-06 01:57",
+      "localtime_epoch": 1757095020,
+      "utc_offset": "-4.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 17,
+      "weather_code": 119,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png"
+      ],
+      "weather_descriptions": [
+        "Cloudy"
+      ],
+      "astro": {
+        "sunrise": "06:45 AM",
+        "sunset": "07:30 PM",
+        "moonrise": "05:25 PM",
+        "moonset": "04:45 AM",
+        "moon_phase": "Waning Gibbous",
+        "moon_illumination": 80
+      },
+      "air_quality": {
+        "co": "420.5",
+        "no2": "38.2",
+        "o3": "32",
+        "so2": "6.9",
+        "pm2_5": "13.1",
+        "pm10": "26.4",
+        "us-epa-index": "2",
+        "gb-defra-index": "2"
+      },
+      "wind_speed": 12,
+      "wind_degree": 300,
+      "wind_dir": "WNW",
+      "pressure": 1013,
+      "precip": 0,
+      "humidity": 72,
+      "cloudcover": 60,
+      "feelslike": 16,
+      "uv_index": 2,
+      "visibility": 10,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Rome, Italy",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Rome",
+      "country": "Italy",
+      "region": "Lazio",
+      "lat": "41.891",
+      "lon": "12.483",
+      "timezone_id": "Europe/Rome",
+      "localtime": "2025-09-06 07:57",
+      "localtime_epoch": 1757116620,
+      "utc_offset": "2.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 19,
+      "weather_code": 113,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+      ],
+      "weather_descriptions": [
+        "Sunny"
+      ],
+      "astro": {
+        "sunrise": "06:40 AM",
+        "sunset": "07:25 PM",
+        "moonrise": "05:30 PM",
+        "moonset": "06:05 AM",
+        "moon_phase": "First Quarter",
+        "moon_illumination": 35
+      },
+      "air_quality": {
+        "co": "450.8",
+        "no2": "42.1",
+        "o3": "35",
+        "so2": "8.5",
+        "pm2_5": "16.8",
+        "pm10": "29.2",
+        "us-epa-index": "2",
+        "gb-defra-index": "2"
+      },
+      "wind_speed": 5,
+      "wind_degree": 200,
+      "wind_dir": "SSW",
+      "pressure": 1012,
+      "precip": 0,
+      "humidity": 65,
+      "cloudcover": 20,
+      "feelslike": 19,
+      "uv_index": 8,
+      "visibility": 10,
+      "is_day": "yes"
+    }
+  },
+  {
+    "request": {
+      "type": "City",
+      "query": "Bangkok, Thailand",
+      "language": "en",
+      "unit": "m"
+    },
+    "location": {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "region": "Bangkok",
+      "lat": "13.756",
+      "lon": "100.501",
+      "timezone_id": "Asia/Bangkok",
+      "localtime": "2025-09-06 13:57",
+      "localtime_epoch": 1757139420,
+      "utc_offset": "7.0"
+    },
+    "current": {
+      "observation_time": "05:57 AM",
+      "temperature": 31,
+      "weather_code": 176,
+      "weather_icons": [
+        "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png"
+      ],
+      "weather_descriptions": [
+        "Light showers"
+      ],
+      "astro": {
+        "sunrise": "06:05 AM",
+        "sunset": "06:35 PM",
+        "moonrise": "04:10 PM",
+        "moonset": "04:50 AM",
+        "moon_phase": "Waxing Gibbous",
+        "moon_illumination": 85
+      },
+      "air_quality": {
+        "co": "780.5",
+        "no2": "110.2",
+        "o3": "25",
+        "so2": "15.8",
+        "pm2_5": "150.3",
+        "pm10": "165.1",
+        "us-epa-index": "5",
+        "gb-defra-index": "5"
+      },
+      "wind_speed": 8,
+      "wind_degree": 180,
+      "wind_dir": "S",
+      "pressure": 1007,
+      "precip": 1.2,
+      "humidity": 78,
+      "cloudcover": 75,
+      "feelslike": 32,
+      "uv_index": 8,
+      "visibility": 6,
+      "is_day": "yes"
+    }
+  }
+]
