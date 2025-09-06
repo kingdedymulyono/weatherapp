@@ -62,6 +62,12 @@ const getWeather = async (q) => {
                                 <span class="font-medium">
                                 Sun Cycle
                                 </span>
+                                <span class="detailsText float-right font-light">
+                                <i class="bi bi-sunrise"></i>:
+                                ${data.current.astro.sunrise} ,
+                                <i class="bi bi-sunset"></i>:
+                                ${data.current.astro.sunrise}
+                                </span>
                                 </div>
                                 <div class="${detailsClass} font-light p-2 rounded-full">
                                 <i class="bi bi-wind"></i>
