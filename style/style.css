@@ -1,0 +1,117 @@
+:root{
+    --primary-sunny:#6dc7cf;
+    --secondary-sunny:#e0f2f2;
+    --text-sunny:#0d0d0d;
+    --primary-dark:#E0F2F2;
+    --secondary-dark:#1C2A39;
+    --text-dark:#36454F;
+}
+
+body{
+    overflow-x:hidden ;
+    /* padding: 1rem !important; */
+    font-family: Helvetica ;
+}
+#main{
+    width: 96dvw;
+    /* margin: 1rem; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
+.weatherSunny{
+    background-color: var(--primary-sunny) !important;
+}
+.weatherDark{
+    background-color: var(--primary-dark) !important;
+}
+.whiteText{
+    color: var(--secondary-sunny);
+}
+.darkText{
+    color: var(--text-dark);
+}
+.weatherVisualSunny{
+    background-color: var(--secondary-sunny);
+}
+.weatherVisualDark{
+    background-color: var(--secondary-dark);
+}
+.details{
+    background-color: var(--secondary-sunny);
+    font-size: 12px;
+    /* display: flex;
+    justify-content: space;
+    align-items: center; */
+}
+.detailsDark{
+    background-color: #BCC4D1;
+    font-size: 12px;
+}
+.add{
+    font-size: 16dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 10dvw;
+    min-height: 10dvw;
+}
+.addBox{
+    background-color: #BCC4D1;
+}
+.errMsg{
+    background-color: var(--secondary-dark);
+}
+.errFlex{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.errImgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.errImg{
+    width: 100%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    padding: 2rem;
+}
+@media (max-width:1080px) {
+    .detailsText{
+        font-size: 8px;
+    }
+    .minorDate{
+        display: none !important;
+    }
+}
+@media (max-width:960px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+    }
+    .details span:nth-child(1){
+        display: none;
+    }
+    .detailsText{
+        font-size: 8px;
+    }
+}
+@media (max-width:560px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+        .minorDate{
+            display: block;
+        }
+        .detailsText{
+            font-size: 12px;
+        }
+    }
+}
