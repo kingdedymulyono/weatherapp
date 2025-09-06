@@ -17,18 +17,32 @@
         <div class="grid" id="grid">
         </div>
     </div>
-    <button id="showBtn" type="button" class="m-4 rounded-full flex justify-center shadow-lg items-center addBox ">
-        <i class="bi bi-plus add darkText"></i>
-    </button>
+    <div class="flex">
+        <button data-aos="fade-up" data-aos-delay="200" id="showBtn" type="button" class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-200 hover:bg-cyan-100">
+            <i class="bi bi-plus add darkText"></i>
+        </button>
+        <button data-aos="fade-up" data-aos-delay="200" id="deleteBtn" type="button" class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-50 hover:bg-red-400 hover:text-white">
+            <i class="bi bi-trash add"></i>
+        </button>
+    </div>
     <div id="fix" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg" style="display: none;">
-        <div class="selectBox p-2 flex flex-col w-64  rounded-2xl">
+        <div class="selectBox p-2 flex flex-col w-64  ounded-2xl">
             <label for="citySelect" class="text-xl">Choose A City
             </label>
             <select class="border border-2 border-slate-200 p-2 rounded-xl" name="citySelect" id="citySelect">
             </select>
-            <button id="sendBtn" type="button" 
-            class="bg bg-slate-50 shadow-sm border border-slate-200 mt-2 p-2 font-light rounded-xl hover:bg-slate-200">
-            Send request !</button>
+            <button id="sendBtn" type="button"
+                class="bg bg-slate-50 shadow-sm border border-slate-200 mt-2 p-2 font-light rounded-xl hover:bg-slate-200">
+                Send request !</button>
+        </div>
+    </div>
+    <div id="alert" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg" style="display: none;">
+        <div class="selectBox p-2 flex flex-col w-64  rounded-2xl">
+            <p class="text-2xl text-center text-red-800">SORRY</p>
+            <i class="errImg bi bi-exclamation-octagon"></i>
+            <p class="text-xl text-red-600">You can't delete this card</p>
+            <button id="alertBtn" type="button"
+                class="bg bg-slate-50 shadow-sm border border-red-800 mt-2 p-2 font-light hover:text-white rounded-xl hover:bg-red-800">Okay</button>
         </div>
     </div>
 </body>

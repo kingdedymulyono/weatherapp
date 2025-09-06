@@ -17,6 +17,7 @@ body {
     width: 96dvw;
     /* margin: 1rem; */
     margin: auto;
+    transition: all .4s;
 }
 
 .grid {
@@ -62,18 +63,20 @@ body {
 }
 
 .add {
-    font-size: 16dvw;
+    position: relative;
+    font-size: 10dvw;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 10dvw;
     min-height: 10dvw;
+    transition: all 1s;
 }
 
 .addBox {
-    background-color: #BCC4D1;
     transition: all 1s;
-    transition-delay: .5s;
+    /* transition-delay: .5s; */
 }
 
 .errMsg {
@@ -104,9 +107,7 @@ body {
 }
 
 .addBox:hover {
-    background-color: #e0f2f2;
     transition: all 1s;
-    transition-timing-function: ease-in;
     position: relative;
     top: -.5rem;
     transition-delay: .5s;
@@ -119,9 +120,31 @@ body {
     left: 50%;
     background-color: white;
     transform: translate(-50%, -50%);
+    animation: scrollUp 1s forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+#alert{
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    animation: scrollUp 1s forwards;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 #citySelect option{
     overflow: hidden;
+}
+
+@keyframes scrollUp {
+    from{
+        top: 100%;
+    }
+    to{
+        top: 50%;
+    }
 }
 @media (max-width:1080px) {
     .detailsText {
