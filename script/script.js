@@ -1,8 +1,12 @@
 const main = document.getElementById("main")
 const grid = document.getElementById("grid")
 const select = document.getElementById("citySelect")
+const input = document.getElementById("inputCity")
+const dataCity = document.getElementById("cityData")
 const alter = document.getElementById("alert")
+const alterMsg = document.getElementById("alertMsg")
 const alertBtn = document.getElementById("alertBtn")
+const alertBtn1 = document.getElementById("alertBtn1")
 const showBtn = document.getElementById("showBtn")
 const sendBtn = document.getElementById("sendBtn")
 const deleteBtn = document.getElementById("deleteBtn")
@@ -60,6 +64,9 @@ const getWeather = async (q) => {
                     arrCity.push(data.location.name.toLowerCase())
                     select.innerHTML += `
                         <option value="${data.location.name}">${data.location.name}</option>
+                    `
+                    dataCity.innerHTML += `
+                    <option value="${data.location.name}">
                     `
                 }
                 if (data.current.weather_descriptions == 'Sunny') {
@@ -201,13 +208,18 @@ showBtn.addEventListener('click', () => {
 })
 
 sendBtn.addEventListener("click", () => {
-    arrSaved.push(select.value)
-    getWeather(select.value.toLowerCase())
-    localStorage.setItem("cities", JSON.stringify(arrSaved))
-    select.parentElement.parentElement.style.display = 'none'
-    main.style.opacity = '1'
-    main.style.filter = ''
-    isClicked = false
+    if (arrCity.includes(input.value.toLowerCase())) {
+        arrSaved.push(input.value)
+        getWeather(input.value.toLowerCase())
+        localStorage.setItem("cities", JSON.stringify(arrSaved))
+        select.parentElement.parentElement.style.display = 'none'
+        main.style.opacity = '1'
+        main.style.filter = ''
+    } else {
+        select.parentElement.parentElement.style.display = 'none'
+        alterMsg.style.display='flex'
+        isClicked = false
+    }
 })
 
 
@@ -231,8 +243,13 @@ alertBtn.addEventListener("click", () => {
     main.style.opacity = '1'
     main.style.filter = 'blur(0)'
 })
+alertBtn1.addEventListener("click", () => {
+    alterMsg.style.display = 'none'
+    main.style.opacity = '1'
+    main.style.filter = 'blur(0)'
+})
 
-deleteBtn.addEventListener('click',()=>{
+deleteBtn.addEventListener('click', () => {
     localStorage.removeItem("cities")
     location.reload()
 })

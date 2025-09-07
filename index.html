@@ -29,8 +29,11 @@
         <div class="selectBox p-2 flex flex-col w-64  ounded-2xl">
             <label for="citySelect" class="text-xl">Choose A City
             </label>
-            <select class="border border-2 border-slate-200 p-2 rounded-xl" name="citySelect" id="citySelect">
+            <select class="border border-2 border-slate-200 p-2 rounded-xl" name="citySelect" id="citySelect" style="display: none;">
             </select>
+            <input list="cityData" type="text" class="border border-2 border-slate-200 p-2 rounded-xl" name="inputCity" id="inputCity">
+            </input>
+            <datalist id="cityData"></datalist>
             <button id="sendBtn" type="button"
                 class="bg bg-slate-50 shadow-sm border border-slate-200 mt-2 p-2 font-light rounded-xl hover:bg-slate-200">
                 Send request !</button>
@@ -42,6 +45,15 @@
             <i class="errImg bi bi-exclamation-octagon"></i>
             <p class="text-xl text-red-600">You can't delete this card</p>
             <button id="alertBtn" type="button"
+                class="bg bg-slate-50 shadow-sm border border-red-800 mt-2 p-2 font-light hover:text-white rounded-xl hover:bg-red-800">Okay</button>
+        </div>
+    </div>
+    <div id="alertMsg" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg" style="display: none;">
+        <div class="selectBox p-2 flex flex-col w-64  rounded-2xl">
+            <p class="text-2xl text-center text-red-800">SORRY</p>
+            <i class="errImg bi bi-exclamation-octagon"></i>
+            <p class="text-l text-red-600">Your city doesnt included at database,choose another city</p>
+            <button id="alertBtn1" type="button"
                 class="bg bg-slate-50 shadow-sm border border-red-800 mt-2 p-2 font-light hover:text-white rounded-xl hover:bg-red-800">Okay</button>
         </div>
     </div>
