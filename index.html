@@ -13,15 +13,31 @@
 
 <body>
     <div id="main">
-        <h1 class=" text-2xl p-4 text-center">Weather App</h1>
+        <div class="flex items-center justify-between">
+            <h1 class=" text-xl p-4 text-center">Weather App</h1>
+            <button class="border-2 p-2 rounded-2xl border-red-400 mx-4
+            hover:bg-red-400 hover:text-white duration-300" id="deleteBtn">Delete All</button>
+        </div>
         <div class="grid" id="grid">
         </div>
+        <div class="grid" id="grid">
+            <div data-aos="fade-up" data-aos-delay="200" class="errMsg flex justify-center items-center m-4 shadow-lg rounded-4xl">
+                <button id="showBtn" type="button"
+                    class="m-4 rounded-full flex justify-center shadow-lg items-center addBox">
+                    <i class="bi bi-plus add text-white"></i>
+                </button>
+            </div>
+        </div>
     </div>
+
     <div class="flex">
-        <button data-aos="fade-up" data-aos-delay="200" id="showBtn" type="button" class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-200 hover:bg-cyan-100">
+        <button data-aos="fade-up" data-aos-delay="200" type="button"
+            class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-200 hover:bg-cyan-100" style="display: none;">
             <i class="bi bi-plus add darkText"></i>
         </button>
-        <button data-aos="fade-up" data-aos-delay="200" id="deleteBtn" type="button" class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-50 hover:bg-red-400 hover:text-white">
+        <button data-aos="fade-up" data-aos-delay="200" type="button"
+            class="m-4 rounded-full flex justify-center shadow-lg items-center addBox bg-neutral-50 hover:bg-red-400 hover:text-white"
+            style="display: none;">
             <i class="bi bi-trash add"></i>
         </button>
     </div>
@@ -29,9 +45,11 @@
         <div class="selectBox p-2 flex flex-col w-64  ounded-2xl">
             <label for="citySelect" class="text-xl">Choose A City
             </label>
-            <select class="border border-2 border-slate-200 p-2 rounded-xl" name="citySelect" id="citySelect" style="display: none;">
+            <select class="border border-2 border-slate-200 p-2 rounded-xl" name="citySelect" id="citySelect"
+                style="display: none;">
             </select>
-            <input list="cityData" type="text" class="border border-2 border-slate-200 p-2 rounded-xl" name="inputCity" id="inputCity">
+            <input list="cityData" type="text" class="border border-2 border-slate-200 p-2 rounded-xl" name="inputCity"
+                id="inputCity">
             </input>
             <datalist id="cityData"></datalist>
             <button id="sendBtn" type="button"
@@ -39,7 +57,8 @@
                 Send request !</button>
         </div>
     </div>
-    <div id="alert" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg" style="display: none;">
+    <div id="alert" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg"
+        style="display: none;">
         <div class="selectBox p-2 flex flex-col w-64  rounded-2xl">
             <p class="text-2xl text-center text-red-800">SORRY</p>
             <i class="errImg bi bi-exclamation-octagon"></i>
@@ -48,7 +67,8 @@
                 class="bg bg-slate-50 shadow-sm border border-red-800 mt-2 p-2 font-light hover:text-white rounded-xl hover:bg-red-800">Okay</button>
         </div>
     </div>
-    <div id="alertMsg" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg" style="display: none;">
+    <div id="alertMsg" class="flex justify-center items-center fixedSelect p-2 rounded-3xl shadow-lg"
+        style="display: none;">
         <div class="selectBox p-2 flex flex-col w-64  rounded-2xl">
             <p class="text-2xl text-center text-red-800">SORRY</p>
             <i class="errImg bi bi-exclamation-octagon"></i>
